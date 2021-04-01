@@ -63,7 +63,6 @@ const login = async(req,res =response) =>{
             token
         });
     } catch (error) {
-
         console.log(error);
         return res.status(500).json({
             ok:false,
